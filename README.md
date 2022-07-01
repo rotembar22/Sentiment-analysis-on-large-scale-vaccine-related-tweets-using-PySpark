@@ -4,11 +4,11 @@ The project aims to present sentiment analysis on vaccines-related tweets collec
 The sentiment analysis was done using TextBlob, a library for NLP tasks. TextBlob uses a pre-trained model containing a dictionary, where each word is ranked with a semantic value. The result obtained is the average semantic value in each tweet.
 
 Some of the inquiries that were extracted:
-Average sentiment score for each day
-Average sentiment score for each country
-Sentiment score for positive/negative/natural label by day(avg)
-Tweets count in each country
-Tweets count by day(avg)
-Likes count for positive/negative tweets
-Average sentiment score for Moderna or Pfizer
-Users analysis- how many user tweets, avg +std
+ - Average sentiment score for each day
+ - Average sentiment score for each country
+ - Sentiment score for positive/negative/natural label by day(avg)
+ - Tweets count in each country
+ - Tweets count by day(avg)
+ - Likes count for positive/negative tweets
+ - Average sentiment score for Moderna or Pfizer
+ - Users analysis- how many user tweets, avg +std
