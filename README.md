@@ -79,13 +79,11 @@ Here is the text preprosess I made,
 There are several techniques how to evaluate to address the sentiment analysis task. The most straightforward is using a dictionary that ranks each word with the level of sentiment. There are several tool kits that use this kind of dictionary, so I decided to use TextBlob.  TextBlob uses the popular NLTK library, while the input contains a single sentence, and the output is polarity and subjectivity. The polarity score lies between (-1 to 1), where -1 identifies the most negative words such as ‘disgusting’, ‘awful’, and ‘pathetic’, and 1 identifies the most positive words like ‘excellent’, and ‘best’. 
 
 Therefore I defined the “sentiment label” as follows:
-	* Negative : [-1, -0.1]
-	* Natural : [-0.1, 0.1]
-	* Positive : [-0.1, 1]
+<br>	* Negative : [-1, -0.1]
+<br>	* Natural : [-0.1, 0.1]
+<br>	* Positive : [-0.1, 1]
   
   
-![image](https://user-images.githubusercontent.com/28051686/205072562-fa2c03d2-22b3-49ce-bcfb-bac2c26646b4.png)
-
 
 
 # Code Implementation
