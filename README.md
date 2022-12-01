@@ -36,7 +36,7 @@ I wrote a step-by-step tutorial on creating an automated Twitter data collection
 
 I wrote a step-by-step tutorial on creating an automated Twitter data collection script using academic research access. Here is the link for the medium post:
 
-**Details about the collected data: **
+**Details about the collected data:**
 
 Twitter API: Academic research URL
   * Up to 10M tweets for each mount
@@ -59,6 +59,7 @@ Total tweets collected: 730K
 
 # Preprocess
 
+Here is the text preprosess I made, 
 1. Remove non ASCII characters (remove emoji)
 2. Fixed abbreviation such as:
       * thats -> that is
@@ -74,6 +75,19 @@ Total tweets collected: 730K
 
 
 # Sentiment Score
+
+There are several techniques how to evaluate to address the sentiment analysis task. The most straightforward is using a dictionary that ranks each word with the level of sentiment. There are several tool kits that use this kind of dictionary, so I decided to use TextBlob.  TextBlob uses the popular NLTK library, while the input contains a single sentence, and the output is polarity and subjectivity. The polarity score lies between (-1 to 1), where -1 identifies the most negative words such as ‘disgusting’, ‘awful’, and ‘pathetic’, and 1 identifies the most positive words like ‘excellent’, and ‘best’. 
+
+Therefore I defined the “sentiment label” as follows:
+	* Negative : [-1, -0.1]
+	* Natural : [-0.1, 0.1]
+	* Positive : [-0.1, 1]
+  
+  
+![image](https://user-images.githubusercontent.com/28051686/205072562-fa2c03d2-22b3-49ce-bcfb-bac2c26646b4.png)
+
+
+
 # Code Implementation
 
 [Jupyter notebook](https://github.com/rotembaruch/Product-Recommendation-System/blob/main/Product%20Recommendation%20System.ipynb "Jupyter notebook")
