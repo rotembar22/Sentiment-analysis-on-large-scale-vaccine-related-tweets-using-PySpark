@@ -61,10 +61,10 @@ Total tweets collected: 730K
 
 1. Remove non ASCII characters (remove emoji)
 2. Fixed abbreviation such as:
-      thats -> that is
-      im -> I am
-      wth - > what the hell
-      wont -> will not
+      * thats -> that is
+      * im -> I am
+      * wth - > what the hell
+      * wont -> will not
 3. Convert to lowercase
 4. Remove hyperlinks
 5. Remove @mentions
