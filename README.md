@@ -95,36 +95,31 @@ Therefore I defined the “sentiment label” as follows:
 
 
 <p align="center">
-<img src="img/Screenshot 2022-12-01 084800.jpeg" width=70% height=70% >
+<img src="img/Screenshot 2022-12-01 084800.jpeg" width=50% height=50% >
 </p>
 
 * We can see that the volume of tweets during the first (1+2) shots in march and during the third shots at the beginning of June significantly impacted tweeter, while more tweets were tweeted in those times.
 
 
 <p align="center">
-<img src="img/Screenshot 2022-12-01 084836.jpeg" width=70% height=70% >
+<img src="img/Screenshot 2022-12-01 084836.jpeg" width=50% height=50% >
 </p>
 
 * The average semantic level during this period stayed positive all the time. Addiontaly, from March to June, there is a trend of decrease in the semantic level, and from June to December, we don't see an increasing/decreasing trend in the average semantic level.
 
-Average positive/negative sentiment score per day
-
-<p align="center">
-<img src="img/Screenshot 2022-12-01 084907.jpeg" width=70% height=70% >
-</p>
-
-
-Count tweets for each user
 
 <p align="center">
 <img src="img/Screenshot 2022-12-01 084934.jpeg" width=70% height=70% >
 </p>
 
+This is quite interesting information that can help us to learn and understand more about our data and its distribution. We can see that the mean tweets per user are 4.64, but the std is 30.58, and the maximum tweets per user are 3,907 (!!!). Such a large std can indicate how much our data is not homogenous and does not represent the population well. These are two scenarios that I can think of that can explain the results:
+Bots in Twitter 
+Activists that highly tweets compare to "normal" users.
+Bots on Twitter are a well-known problem (see what happened with Elon Mask). Bots detection on Twitter is a different task, and some tools and algorithms intend to detect them. In my project, I decided not to explore this direction. Still, it is definitely something that will be interesting to explore in future work.
 
-Average sentiment score for each country
 
 <p align="center">
-<img src="img/Screenshot 2022-12-01 085001.jpeg" width=70% height=70% >
+<img src="img/Screenshot 2022-12-01 085001.jpeg" width=50% height=50% >
 </p>
 
 
