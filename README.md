@@ -39,9 +39,9 @@ I wrote a step-by-step tutorial on creating an automated Twitter data collection
 **Details about the collected data: **
 
 Twitter API: Academic research URL
-Up to 10M tweets for each mount
-500 tweets for each request
-50 requests / 15 minutes
+  * Up to 10M tweets for each mount
+  * 500 tweets for each request
+  * 50 requests / 15 minutes
 
 
 Fields: 
@@ -79,5 +79,6 @@ Total tweets collected: 730K
 [Jupyter notebook](https://github.com/rotembaruch/Product-Recommendation-System/blob/main/Product%20Recommendation%20System.ipynb "Jupyter notebook")
 
 # Analysis Results
+
 
 
