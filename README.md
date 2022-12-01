@@ -34,8 +34,6 @@ I wrote a step-by-step tutorial on creating an automated Twitter data collection
 
 [Creating an Automated Twitter Data Collection Script using Academic Research Access (API V2)](https://medium.com/@rotem_bar/creating-an-automated-twitter-data-collection-script-using-academic-research-access-api-v2-aaacb419e123 "Creating an Automated Twitter Data Collection Script using Academic Research Access (API V2)")
 
-I wrote a step-by-step tutorial on creating an automated Twitter data collection script using academic research access. Here is the link for the medium post:
-
 **Details about the collected data:**
 
 Twitter API: Academic research URL
@@ -59,7 +57,8 @@ Total tweets collected: 730K
 
 # Preprocess
 
-Here is the text preprosess I made, 
+Text that comes from private people is considered particularly "dirty." For example, @mentions and hyperlinks are not found in more managed texts like articles and  Wikipedia. We need to pre-process the text in order to clean it up. Here is the text preprosess I made, The steps do not have to be performed in the same order.
+
 1. Remove non ASCII characters (remove emoji)
 2. Fixed abbreviation such as:
       * thats -> that is
@@ -79,18 +78,52 @@ Here is the text preprosess I made,
 There are several techniques how to evaluate to address the sentiment analysis task. The most straightforward is using a dictionary that ranks each word with the level of sentiment. There are several tool kits that use this kind of dictionary, so I decided to use TextBlob.  TextBlob uses the popular NLTK library, while the input contains a single sentence, and the output is polarity and subjectivity. The polarity score lies between (-1 to 1), where -1 identifies the most negative words such as ‘disgusting’, ‘awful’, and ‘pathetic’, and 1 identifies the most positive words like ‘excellent’, and ‘best’. 
 
 Therefore I defined the “sentiment label” as follows:
-<br>	* Negative : [-1, -0.1]
-<br>	* Natural : [-0.1, 0.1]
-<br>	* Positive : [-0.1, 1]
+<br>	 Negative : [-1, -0.1]
+<br>	 Natural : [-0.1, 0.1]
+<br>	 Positive : [-0.1, 1]
   
   
 
 
 # Code Implementation
 
-[Jupyter notebook](https://github.com/rotembaruch/Product-Recommendation-System/blob/main/Product%20Recommendation%20System.ipynb "Jupyter notebook")
+[Jupyter notebook- Data Collection](https://github.com/rotembaruch/Sentiment-analysis-on-large-scale-vaccine-related-tweets-using-PySpark/blob/main/collecting_data.ipynb "Jupyter notebook")
+
+[Jupyter notebook - Sentiment Analysis](https://github.com/rotembaruch/Product-Recommendation-System/blob/main/Product%20Recommendation%20System.ipynb "Jupyter notebook")
 
 # Analysis Results
 
+Count tweets per day
+
+<p align="center">
+<img src="img/Screenshot 2022-12-01 084800.jpeg" width=70% height=70% >
+</p>
+
+Average sentiment score per day
+
+<p align="center">
+<img src="img/Screenshot 2022-12-01 084836.jpeg" width=70% height=70% >
+</p>
+
+
+Average positive/negative sentiment score per day
+
+<p align="center">
+<img src="img/Screenshot 2022-12-01 084907.jpeg" width=70% height=70% >
+</p>
+
+
+Count tweets for each user
+
+<p align="center">
+<img src="img/Screenshot 2022-12-01 084934.jpeg" width=70% height=70% >
+</p>
+
+
+Average sentiment score for each country
+
+<p align="center">
+<img src="img/Screenshot 2022-12-01 085001.jpeg" width=70% height=70% >
+</p>
 
 
