@@ -93,18 +93,19 @@ Therefore I defined the “sentiment label” as follows:
 
 # Analysis Results
 
-Count tweets per day
 
 <p align="center">
 <img src="img/Screenshot 2022-12-01 084800.jpeg" width=70% height=70% >
 </p>
 
-Average sentiment score per day
+* We can see that the volume of tweets during the first (1+2) shots in march and during the third shots at the beginning of June significantly impacted tweeter, while more tweets were tweeted in those times.
+
 
 <p align="center">
 <img src="img/Screenshot 2022-12-01 084836.jpeg" width=70% height=70% >
 </p>
 
+* The average semantic level during this period stayed positive all the time. Addiontaly, from March to June, there is a trend of decrease in the semantic level, and from June to December, we don't see an increasing/decreasing trend in the average semantic level.
 
 Average positive/negative sentiment score per day
 
