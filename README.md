@@ -29,6 +29,11 @@ Some of the inquiries that were extracted:
 
 
 # Data Collection
+
+I wrote a step-by-step tutorial on creating an automated Twitter data collection script using academic research access. Here is the link for the medium post:
+
+[Creating an Automated Twitter Data Collection Script using Academic Research Access (API V2)](https://medium.com/@rotem_bar/creating-an-automated-twitter-data-collection-script-using-academic-research-access-api-v2-aaacb419e123 "Creating an Automated Twitter Data Collection Script using Academic Research Access (API V2)")
+
 # Preprocess
 # Sentiment Score
 # Code Implementation
