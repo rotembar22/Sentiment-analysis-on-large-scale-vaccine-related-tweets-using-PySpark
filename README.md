@@ -34,7 +34,45 @@ I wrote a step-by-step tutorial on creating an automated Twitter data collection
 
 [Creating an Automated Twitter Data Collection Script using Academic Research Access (API V2)](https://medium.com/@rotem_bar/creating-an-automated-twitter-data-collection-script-using-academic-research-access-api-v2-aaacb419e123 "Creating an Automated Twitter Data Collection Script using Academic Research Access (API V2)")
 
+I wrote a step-by-step tutorial on creating an automated Twitter data collection script using academic research access. Here is the link for the medium post:
+
+**Details about the collected data: **
+
+Twitter API: Academic research URL
+Up to 10M tweets for each mount
+500 tweets for each request
+50 requests / 15 minutes
+
+
+Fields: 
+- tweet
+- author id
+- created at
+- geo
+
+
+Location: USA
+Time range: 20/03/2021- 31/12/2021
+Key words: vaccines, vaccine, vaccination, Vaccinated, pfizer, Moderna
+
+Total tweets collected: 730K
+
 # Preprocess
+
+1. Remove non ASCII characters (remove emoji)
+2. Fixed abbreviation such as:
+      thats -> that is
+      im -> I am
+      wth - > what the hell
+      wont -> will not
+3. Convert to lowercase
+4. Remove hyperlinks
+5. Remove @mentions
+6. Remove punctuation
+7. Remove numeric 'words’
+8. Remove non a-z 0-9 characters and words shorter than 1 characters
+
+
 # Sentiment Score
 # Code Implementation
 
