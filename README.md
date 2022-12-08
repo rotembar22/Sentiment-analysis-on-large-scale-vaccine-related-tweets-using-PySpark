@@ -89,7 +89,7 @@ Therefore I defined the “sentiment label” as follows:
 
 [Jupyter notebook- Data Collection](https://github.com/rotembaruch/Sentiment-analysis-on-large-scale-vaccine-related-tweets-using-PySpark/blob/main/collecting_data.ipynb "Jupyter notebook")
 
-[Jupyter notebook - Sentiment Analysis](https://github.com/rotembaruch/Product-Recommendation-System/blob/main/Product%20Recommendation%20System.ipynb "Jupyter notebook")
+[Jupyter notebook - Sentiment Analysis](https://github.com/rotembar22/Sentiment-analysis-on-large-scale-vaccine-related-tweets-using-PySpark/blob/main/sentiment_analysis_twitter.ipynb "Jupyter notebook")
 
 # Analysis Results
 
